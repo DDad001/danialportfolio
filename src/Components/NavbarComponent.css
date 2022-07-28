@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.bg-homePage{
+    background-color:#1A213E !important;
+  }
+
+  .nav-link{
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .contactBtn{
+    background-color: #D25858;
+    border-radius: 20rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
