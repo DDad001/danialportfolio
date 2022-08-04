@@ -9,13 +9,14 @@
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
   }
 
   .contactBtn{
     background-color: #D25858;
     border-radius: 20rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
   }

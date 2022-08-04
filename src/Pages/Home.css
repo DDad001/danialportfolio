@@ -1,7 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .bg-homePage{
     background-color:#1A213E !important;
   }
 
-  p{
+  .homepage-text{
     color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1{
+    color:white;
+    font-size: 5rem;
+    margin-top: 12rem!important;
+    font-family: 'Archivo', sans-serif;
+  }
+
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+  }
+
+  .customBtnTxt{
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+
+  .linkStyle{
+    text-decoration: none;
+  }
+
+  .m-bottomHompage{
+    margin-bottom: 10vh;
   }

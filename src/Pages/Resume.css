@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.b-resumePage{
+    background-color: #5AC384 !important;
+}
+
+h2{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Archivo', sans-serif;
+    margin-top: 17rem!important;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.customButton1{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+  }
+
+.customButton2{
+    color: white;
+    background-color: #1A213E !important;
+    border-radius: 30px !important;
+    border-color: #1A213E !important;
+    padding: 0.5rem 2rem !important;
+  }
+
+  .customBtnTxt1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .mb-custom{
+    margin-bottom:6rem;
+  }
