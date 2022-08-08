@@ -5,13 +5,15 @@ import NavbarComponent from './Components/NavbarComponent';
 import Home from './Pages/Home';
 import Resume from './Pages/Resume';
 import Projects from './Pages/Projects';
+import AboutMe from './Pages/AboutMe';
+import ContactMe from './Pages/ContactMe';
+import Main from './Views/Main';
 
 function App() {
   return (
     <>
-    <Home/>
-    <Resume/>
-    <Projects/>
+    <NavbarComponent/>
+    <Main/>
     </>
   
   );

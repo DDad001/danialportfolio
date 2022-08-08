@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function Resume() {
   return (
-    <div className='b-resumePage'>
+    <div className='b-resumePage' id="resume">
       <Container>
         <Row className='p-4'>
             <Col lg={6}>
@@ -25,9 +25,9 @@ function Resume() {
                 </a>
             </div>
                 <div>
-            <a className="linkStyle" href="https://github.com/DDad001" rel="noreferrer" target="_blank" >
+            <a className="linkStyle" href="https://drive.google.com/file/d/1EyLVh-N7kvAAclsTP_pRVxzY21v-d0yN/view?usp=sharing" rel="noreferrer" target="_blank" >
                 <div className='customButton2'>
-                <p className='customBtnTxt1'>More<img src = {arrowRight} width = "20rem" alt="Computer Image" className='mx-2'/></p>                 
+                <p className='customBtnTxt1'>View<img src = {arrowRight} width = "20rem" alt="Computer Image" className='mx-2'/></p>                 
                 </div>
                 </a>
             </div>

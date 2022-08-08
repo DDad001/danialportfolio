@@ -7,10 +7,11 @@ import KobePic from "../Assets/KobePic.png";
 import WeatherPic from "../Assets/WeatherPic.png";
 import AllForOnePic from "../Assets/AllForOnePic.png";
 import video from "../Assets/PUGApp.mp4"
+import portfolioPic from "../Assets/portfolioPic.png";
 
 function Projects() {
   return (
-    <div className="b-projectsPage">
+    <div className="b-projectsPage" id="projects">
       <Container>
         <Row>
           <Col lg={12} className="mt-4">
@@ -20,10 +21,9 @@ function Projects() {
         <Row className="g-5">
           <Col lg={4} className="d-flex justify-content-center">
             <Card style={{ width: "50rem" }}>
-            <video width="400" height="235" controls >
+            <video width="400" height="195" controls >
               <source src={video} type="video/mp4"/>
             </video>
-
               <Card.Body>
                 <Card.Title>PUG App</Card.Title>
                 <Card.Text>
@@ -69,9 +69,9 @@ function Projects() {
 
           <Col lg={4} className="d-flex justify-content-center">
             <Card style={{ width: "50rem" }}>
-              <Card.Img variant="top" src={test}/>
+              <Card.Img variant="top" src={portfolioPic}/>
               <Card.Body>
-                <Card.Title>Task Tracker</Card.Title>
+                <Card.Title>Portfolio Site</Card.Title>
                 <Card.Text>
                 Languages / Frameworks used:<br/>
                  <ul className="px-3">
@@ -89,12 +89,6 @@ function Projects() {
                     </li>
                     <li>
                         Node.js
-                    </li>
-                    <li>
-                        C#
-                    </li>
-                    <li>
-                        SQL
                     </li>
                  </ul>
                 </Card.Text>

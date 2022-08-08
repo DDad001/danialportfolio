@@ -12,6 +12,14 @@
     font-size: 18px;
   }
 
+  .link{
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+
   .contactBtn{
     background-color: #D25858;
     border-radius: 20rem;
@@ -19,4 +27,10 @@
     padding-left: 2.5rem;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
   }
+

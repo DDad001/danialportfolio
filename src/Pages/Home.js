@@ -8,8 +8,6 @@ import github from '../Assets/github.png';
 
 function Home() {
   return (
-    <Container fluid className='p-0'>
-        <NavbarComponent/>
     <div className='bg-homePage'>
     <Container fluid>
     <Row>
@@ -18,9 +16,8 @@ function Home() {
           <Col lg={12}>
             <h1>Hi, I'm Danial.</h1>
              <p className='homepage-text'>
-              loremdfn erfiwer owerifgwerifghiowehgijwriogwerigiwrgiowrjijwerip<br/>
-              dhjfgiowrerigjioerjgioheriogiorgjioerhjgioeriogherijgifkg3wrjgjerg<br/>
-              grejgioherioghjioerjgiojeiogtjioerjgioejrigjergjknerger nm gjerjugnjoerh<br/>
+             Passionate software engineer that loves creating and contributing to<br/>different projects.
+             In my spare time I enjoy doing various activities, such<br/> as playing basketball, listening to music, and watching movies.
               </p>
              <Row>
               <Col lg={3}>
@@ -52,7 +49,6 @@ function Home() {
     </Row>
     </Container>
     </div>
-    </Container>
   )
 }
 
