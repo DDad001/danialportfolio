@@ -91,7 +91,9 @@ function Projects() {
                 </Card.Text>
               </Card.Body>         
                     <Col lg={12} className="d-flex justify-content-center mb-3">
+                    <a href="https://danialdadportfolio.azurewebsites.net" rel="noreferrer" target="_blank">
                        <Button variant="success" className="buttonCustomProject">Visit Site</Button>
+                    </a>
                     </Col>      
             </Card>
           </Col>
