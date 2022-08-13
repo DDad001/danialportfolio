@@ -16,22 +16,26 @@ function Resume() {
             <Col lg={6}>
             <h2>Resume.</h2>
                 <Row className='mt-3 d-flex justify-content-center'> 
-                <Col lg={5}>
+                <Col lg={6}>
             <div className='mb-3'>
             <a href={resume} download>
                 <div className='customButton1'>
-                <p className='customBtnTxt1'>Download<img src = {download} width = "20rem" alt="Computer Image" className='mx-2'/></p>                 
-                </div>
-                </a>
-            </div>
-                <div>
-            <a className="linkStyle" href="https://drive.google.com/file/d/1EyLVh-N7kvAAclsTP_pRVxzY21v-d0yN/view?usp=sharing" rel="noreferrer" target="_blank" >
-                <div className='customButton2'>
-                <p className='customBtnTxt1'>View<img src = {arrowRight} width = "20rem" alt="Computer Image" className='mx-2'/></p>                 
+                <p className='customBtnTxt1'>Download<img src = {download} width = "20rem" alt="Download Logo" className='mx-2'/></p>                 
                 </div>
                 </a>
             </div>
                 </Col>
+                </Row>
+                <Row className='d-flex justify-content-center'>
+                  <Col lg={6}>
+                <div>
+            <a className="linkStyle" href="https://drive.google.com/file/d/1EyLVh-N7kvAAclsTP_pRVxzY21v-d0yN/view?usp=sharing" rel="noreferrer" target="_blank" >
+                <div className='customButton2'>
+                <p className='customBtnTxt1'>View<img src = {arrowRight} width = "20rem" alt="View Logo" className='mx-2'/></p>                 
+                </div>
+                </a>
+            </div>
+                  </Col>
                 </Row>
             </Col>
             <Col lg={6} className='mt-5 d-flex justify-content-center'>

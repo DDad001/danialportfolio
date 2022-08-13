@@ -14,7 +14,7 @@ function NavbarComponent() {
   return (
    <BrowserRouter>
    <div className='bg-homePage' id="home">
-   <Navbar bg = "bg-homePage" expand="lg">
+   <Navbar bg = "bg-homePage" expand="lg" className='navbar navbar-dark'>
      <Container fluid>
           <Navbar.Brand className='mx-3 pt-4'>
          <img
@@ -29,7 +29,7 @@ function NavbarComponent() {
                <Link to={{ pathname: "/Main", hash: "#home" }} className="mx-4 mt-3 link p-2">Home</Link> 
                <Link to={{ pathname: "/Main", hash: "#aboutMe" }} className="mx-4 mt-3 link p-2">About me</Link> 
                <Link to={{ pathname: "/Main", hash: "#resume" }} className="mx-4 mt-3 link p-2">Resume</Link> 
-               <Link to={{ pathname: "/Main", hash: "#projects" }} className="mx-4 mt-3 link p-2">Projects</Link> 
+               <Link to={{ pathname: "/Main", hash: "#projectsPage" }} className="mx-4 mt-3 link p-2">Projects</Link> 
                <Link to={{ pathname: "/Main", hash: "#contactMe" }} className="mx-4 mt-2 contactBtn">Contact me</Link> 
             </Nav>
           </Navbar.Collapse>

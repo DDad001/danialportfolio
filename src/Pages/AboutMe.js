@@ -14,7 +14,7 @@ function AboutMe() {
             <Row>
                 <Col lg={6} className="d-flex justify-content-center mb-custom">
                 <img
-                    className='mt-2'
+                    className='mt-2 danImage'
                     src = {DanCirclePic}
                     width = "728rem"
                     alt="Danial's Image"

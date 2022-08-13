@@ -1,7 +1,6 @@
 import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import "./Projects.css";
-import test from "../Assets/book1.jpg";
 import BusinessPic from "../Assets/BusinessWebPic.png";
 import KobePic from "../Assets/KobePic.png";
 import WeatherPic from "../Assets/WeatherPic.png";
@@ -11,7 +10,7 @@ import portfolioPic from "../Assets/portfolioPic.png";
 
 function Projects() {
   return (
-    <div className="b-projectsPage" id="projects">
+    <div className="b-projectsPage" id="projectsPage">
       <Container>
         <Row>
           <Col lg={12} className="mt-4">
@@ -21,7 +20,7 @@ function Projects() {
         <Row className="g-5">
           <Col lg={4} className="d-flex justify-content-center">
             <Card style={{ width: "50rem" }}>
-            <video width="400" height="195" controls >
+            <video width="400" height="195" controls className="video1">
               <source src={video} type="video/mp4"/>
             </video>
               <Card.Body>
@@ -57,19 +56,17 @@ function Projects() {
                  IN PROGRESS
                 </Card.Text>
               </Card.Body>
-                <Row>
                     <Col lg={12} className="d-flex justify-content-center mb-3">
                     <a href="https://github.com/DDad001/PUG-APP.git" rel="noreferrer" target="_blank">
-                       <Button variant="success" style={{borderRadius:'30px', width:'10vw'}}>Visit Repo</Button>
+                       <Button variant="success" className="buttonCustomProject">Visit repo</Button>
                     </a>
                     </Col>
-                </Row>
             </Card>
           </Col>
 
           <Col lg={4} className="d-flex justify-content-center">
             <Card style={{ width: "50rem" }}>
-              <Card.Img variant="top" src={portfolioPic}/>
+              <Card.Img variant="top" src={portfolioPic} alt="Danial's Portfolio Site Image"/>
               <Card.Body>
                 <Card.Title>Portfolio Site</Card.Title>
                 <Card.Text>
@@ -92,18 +89,16 @@ function Projects() {
                     </li>
                  </ul>
                 </Card.Text>
-              </Card.Body>
-                <Row>
+              </Card.Body>         
                     <Col lg={12} className="d-flex justify-content-center mb-3">
-                       <Button variant="success" style={{borderRadius:'30px', width:'10vw'}}>Visit Site</Button>
-                    </Col>
-                </Row>
+                       <Button variant="success" className="buttonCustomProject">Visit Site</Button>
+                    </Col>      
             </Card>
           </Col>
 
           <Col lg={4} className="d-flex justify-content-center">
             <Card style={{ width: "50rem" }}>
-              <Card.Img variant="top" src={WeatherPic}/>
+              <Card.Img variant="top" src={WeatherPic} alt="Danial's Weather App Image"/>
               <Card.Body>
                 <Card.Title>Weather App</Card.Title>
                 <Card.Text>
@@ -121,13 +116,11 @@ function Projects() {
                  </ul>
                 </Card.Text>
               </Card.Body>
-                <Row>
                     <Col lg={12} className="d-flex justify-content-center mb-3">
                     <a href="https://daddweatherappproject.azurewebsites.net" rel="noreferrer" target="_blank">
-                       <Button variant="success" style={{borderRadius:'30px', width:'10vw'}}>Visit Site</Button>
+                       <Button variant="success" className="buttonCustomProject">Visit Site</Button>
                     </a>
                     </Col>
-                </Row>
             </Card>
           </Col>
         </Row>
@@ -135,7 +128,7 @@ function Projects() {
         <Row className="g-5 mt-2">
           <Col lg={4} className="d-flex justify-content-center mb-5">
             <Card style={{ width: "50rem" }}>
-              <Card.Img variant="top" src={AllForOnePic}/>
+              <Card.Img variant="top" src={AllForOnePic} alt="Danial's All For One Site Image"/>
               <Card.Body>
                 <Card.Title>All For One</Card.Title>
                 <Card.Text>
@@ -156,19 +149,17 @@ function Projects() {
                  </ul>
                 </Card.Text>
               </Card.Body>
-                <Row>
                     <Col lg={12} className="d-flex justify-content-center mb-3">
                    <a href="https://daddallforonesprint.azurewebsites.net" rel="noreferrer" target="_blank">
-                       <Button variant="success" style={{borderRadius:'30px', width:'10vw'}}>Visit Site</Button>
+                       <Button variant="success" className="buttonCustomProject">Visit Site</Button>
                    </a>
                     </Col>
-                </Row>
             </Card>
           </Col>
 
           <Col lg={4} className="d-flex justify-content-center mb-5">
             <Card style={{ width: "50rem" }}>
-              <Card.Img variant="top" src={BusinessPic}/>
+              <Card.Img variant="top" src={BusinessPic} alt="Danial's Buisness ReDevelopment Site Image"/>
               <Card.Body>
                 <Card.Title>Business Redevelopment</Card.Title>
                 <Card.Text>
@@ -186,19 +177,17 @@ function Projects() {
                  </ul>
                 </Card.Text>
               </Card.Body>
-                <Row>
                     <Col lg={12} className="d-flex justify-content-center mb-3">
                     <a href="https://daddbusinessredevelopmentproject.azurewebsites.net" rel="noreferrer" target="_blank">
-                       <Button variant="success" style={{borderRadius:'30px', width:'10vw'}}>Visit Site</Button>
+                       <Button variant="success" className="buttonCustomProject">Visit Site</Button>
                     </a>
                     </Col>
-                </Row>
             </Card>
           </Col>
 
           <Col lg={4} className="d-flex justify-content-center mb-5">
             <Card style={{ width: "50rem" }}>
-              <Card.Img variant="top" src={KobePic}/>
+              <Card.Img variant="top" src={KobePic} alt="Danial's Influential Person Site Image"/>
               <Card.Body>
                 <Card.Title>Influential Person Project</Card.Title>
                 <Card.Text>
@@ -222,13 +211,11 @@ function Projects() {
                  </ul>
                 </Card.Text>
               </Card.Body>
-                <Row>
                     <Col lg={12} className="d-flex justify-content-center mb-3">
                     <a href="https://daddinfluentialperson.azurewebsites.net" rel="noreferrer" target="_blank" >
-                       <Button variant="success" style={{borderRadius:'30px', width:'10vw'}}>Visit Site</Button>
+                       <Button variant="success" className="buttonCustomProject">Visit Site</Button>
                       </a>
                     </Col>
-                </Row>
             </Card>
           </Col>
         </Row>

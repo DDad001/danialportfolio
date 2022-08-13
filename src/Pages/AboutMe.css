@@ -24,3 +24,27 @@ h3{
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
 }
+
+@media(max-width: 1399px)
+{
+.aboutMeTextStyle{
+    color: white;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+}
+@media(max-width: 1199px)
+{
+    .aboutMeTextStyle{
+        color: white;
+        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .danImage{
+        width: 32rem !important;
+    }
+    .mb-custom{
+        margin-bottom: 10px!important;
+    }
+}

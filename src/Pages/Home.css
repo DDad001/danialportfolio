@@ -24,6 +24,7 @@
     border-radius: 30px !important;
     border-color: #5AC384 !important;
     padding: 0.5rem 2rem !important;
+    width: 13vw!important;
   }
   .customButton:hover{
     color: white;
@@ -31,6 +32,7 @@
     border-radius: 30px !important;
     border-color: #D25858 !important;
     padding: 0.5rem 2rem !important;
+    width: 13vw!important;
   }
 
   .customBtnTxt{
@@ -47,3 +49,205 @@
   .m-bottomHompage{
     margin-bottom: 10vh;
   }
+
+  @media(max-width: 1700px)
+  {
+  .homepage-text{
+    color: white;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .computerImg{
+    width:40rem !important;
+  }
+
+  }
+  
+  @media(max-width: 1501px)
+{
+  .homepage-text{
+    color: white;
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif;
+  }
+  .computerImg{
+    width:40rem !important;
+  }
+}
+@media(max-width: 1399px)
+{
+  .homepage-text{
+    color: white;
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif;
+  }
+  .computerImg{
+    width:35rem !important;
+  }
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 15vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 15vw!important;
+  }
+
+}
+@media(max-width: 1199px)
+{
+  .homepage-text{
+    color: white;
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif;
+  }
+  .computerImg{
+    width:30rem !important;
+  }
+  h1{
+    color:white;
+    font-size: 5rem;
+    margin-top: 7rem!important;
+    font-family: 'Archivo', sans-serif;
+  }
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 17vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 17vw!important;
+  }
+  
+}
+@media(max-width: 991px)
+{
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 90vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 90vw!important;
+  }
+}
+@media(max-width: 767px)
+{
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 90vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 90vw!important;
+  }
+}
+@media(max-width: 574px)
+{
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+}
+@media(max-width: 576px)
+{
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+}
+
+@media(max-width: 562px)
+{
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+}
+@media(max-width: 500px)
+{
+  .customButton{
+    color: white;
+    background-color: #5AC384 !important;
+    border-radius: 30px !important;
+    border-color: #5AC384 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+  .customButton:hover{
+    color: white;
+    background-color: #D25858 !important;
+    border-radius: 30px !important;
+    border-color: #D25858 !important;
+    padding: 0.5rem 2rem !important;
+    width: 70vw!important;
+  }
+}

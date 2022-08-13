@@ -7,7 +7,7 @@
 
 .smallInputStyle {
   border-radius: 30px;
-  width: 15vw;
+  width: 25vw;
   font-family: 'Roboto', sans-serif;
 }
 .mediumInputStyle {
@@ -23,7 +23,7 @@
 
 .submitBtnStyle {
     color: white;
-    background-color: #D25858;
+    background-color: #D25858 !important;
     border-color: #D25858 !important;
     border-radius: 30px;
     height: 5vh;
@@ -35,7 +35,7 @@
 
 .submitBtnStyle:hover {
     color: white;
-    background-color: #5AC384;
+    background-color: #5AC384 !important;
     border-color: #5AC384 !important;
     border-radius: 30px;
     height: 5vh;
@@ -43,4 +43,188 @@
     margin-top: 1rem;
     width: 35vw;
     font-family: 'Archivo', sans-serif;
+}
+
+.ContactImg{
+  margin-right: 1rem !important;
+  margin-top: 5rem !important;
+}
+
+
+@media(max-width: 1501px)
+{
+video{
+    width: 400px!important;
+}
+}
+@media(max-width: 1399px)
+{
+video{
+    width: 340px!important;
+}
+
+}
+@media(max-width: 1199px)
+{
+  .ContactImg{
+    width: 30rem !important;
+  }
+}
+@media(max-width: 991px)
+{
+  .ContactImg{
+    width: 30rem !important;
+  }
+  .smallInputStyle {
+    border-radius: 30px;
+    width: 30vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .mediumInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 15rem;
+  }
+  .largeInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .submitBtnStyle {
+    color: white;
+    background-color: #D25858 !important;
+    border-color: #D25858 !important;
+    border-radius: 30px;
+    height: 5vh;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    width: 73vw;
+    font-family: 'Archivo', sans-serif;
+}
+
+.submitBtnStyle:hover {
+    color: white;
+    background-color: #5AC384 !important;
+    border-color: #5AC384 !important;
+    border-radius: 30px;
+    height: 5vh;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    width: 73vw;
+    font-family: 'Archivo', sans-serif;
+}
+}
+
+@media(max-width: 562px)
+{
+  .ContactImg{
+    width: 30rem;
+  }
+  .smallInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .mediumInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .largeInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .submitBtnStyle {
+    color: white;
+    background-color: #D25858 !important;
+    border-color: #D25858 !important;
+    border-radius: 30px;
+    height: 5vh;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    width: 73vw;
+    font-family: 'Archivo', sans-serif;
+}
+
+.submitBtnStyle:hover {
+    color: white;
+    background-color: #5AC384 !important;
+    border-color: #5AC384 !important;
+    border-radius: 30px;
+    height: 5vh;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    width: 73vw;
+    font-family: 'Archivo', sans-serif;
+}
+}
+@media(max-width: 500px)
+{
+  .ContactImg{
+    width: 25rem !important;
+  }
+  .smallInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .mediumInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .largeInputStyle {
+    border-radius: 30px;
+    width: 73vw;
+    font-family: 'Roboto', sans-serif;
+  }
+  .submitBtnStyle {
+    color: white;
+    background-color: #D25858 !important;
+    border-color: #D25858 !important;
+    border-radius: 30px;
+    height: 5vh;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    width: 73vw;
+    font-family: 'Archivo', sans-serif;
+}
+
+.submitBtnStyle:hover {
+    color: white;
+    background-color: #5AC384 !important;
+    border-color: #5AC384 !important;
+    border-radius: 30px;
+    height: 5vh;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    width: 73vw;
+    font-family: 'Archivo', sans-serif;
+}
+}
+
+.footerColor{
+  background-color: #5AC384 !important;
+}
+
+h6{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+.footerText{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.footerText2{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
 }

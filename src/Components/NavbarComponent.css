@@ -34,3 +34,16 @@
     font-size: 18px;
   }
 
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: none !important; 
+    box-shadow:none;
+    border: none !important;
+  }  
+ 
+  .navbar-toggler {
+    text-decoration: none;
+    outline: none !important; 
+    box-shadow:none;
+    border: none !important;
+  }  
