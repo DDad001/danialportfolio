@@ -5,8 +5,8 @@ import BusinessPic from "../Assets/BusinessWebPic.png";
 import KobePic from "../Assets/KobePic.png";
 import WeatherPic from "../Assets/WeatherPic.png";
 import AllForOnePic from "../Assets/AllForOnePic.png";
-import video from "../Assets/PUGApp.mp4"
 import portfolioPic from "../Assets/portfolioPic.png";
+import PugPic from "../Assets/PugPic.png";
 
 function Projects() {
   return (
@@ -20,9 +20,7 @@ function Projects() {
         <Row className="g-5">
           <Col lg={4} className="d-flex justify-content-center">
             <Card style={{ width: "50rem" }}>
-            <video width="400" height="195" controls className="video1">
-              <source src={video} type="video/mp4"/>
-            </video>
+            <Card.Img variant="top" src={PugPic} alt="Danial's PUG Mobile App Image"/>
               <Card.Body>
                 <Card.Title>PUG App</Card.Title>
                 <Card.Text>
